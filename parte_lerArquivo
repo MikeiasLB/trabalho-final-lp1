@@ -1,0 +1,21 @@
+void lerarquivo(Grafo *g,const char nomearquivo){
+    FILE *arquivo=fopen(nomearquivo,"r");
+    if(arquivo==NULL){
+        printf("Arquivo não encontrado \n");
+        return;
+    }
+
+    int v1;
+    int v2;
+    char conexao;
+
+    while(fscanf(arquivo,"%s %d %d",&conexao,&pessoas,conexões)=!EOF){
+
+        if(conexao=='e'){
+            //aqui vai a função de adicionar as arestas
+        }
+    }
+
+    fclose(arquivo);
+
+}
